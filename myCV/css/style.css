@@ -16,8 +16,6 @@ width: 50px;
 }
 
 .right-side{
-   font-size: 14px;
-   font-weight: 700;
-   line-height: 24px;
-   margin-bottom: 25px;
+   display: flex;
+   justify-content: flex-end;
 }
