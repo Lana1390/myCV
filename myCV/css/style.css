@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+html,
+body{
+   font-family: 'Raleway', sans-serif;
+}
+
+.left-side{
+   padding-left: 60px;
+   padding-right: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   
+}
+.my-photo{
+width: 50px;
+}
+
+.right-side{
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 24px;
+   margin-bottom: 25px;
+}
