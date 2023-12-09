@@ -1,21 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@200;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
 html,
 body{
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 
+/*
+
+
 .left-side{
+   margin-right: 1000px;
    padding-left: 60px;
    padding-right: 5px;
    padding-top: 5px;
    padding-bottom: 5px;
+   border-style: groove;
    
 }
+*/
+/*
+.left-side{
+  float: left;
+  width: 30%;
+  background-color: gray;
+}
+
 .my-photo{
-width: 50px;
+width: 300px;
+}
+
+
+.right-side{
+  padding-left: 400px;
+  padding-top: 100px;
+  background-color: aqua;
+}
+
+.left-side.right-side{
+  
+   width: 100%;
+}
+*/
+
+.flex-container{
+   display: flex;
+   flex-direction: row;
+}
+
+.my-photo{
+   width: 300px;
+   }
+
+.left-side {
+   background-color: rgb(247, 237, 225);
 }
 
 .right-side{
-   display: flex;
-   justify-content: flex-end;
+   padding-top: 400px;
+   margin-left: 50px;
+}
+
+h1{
+   font-weight: 700;
+   font-size: 25px;
 }
